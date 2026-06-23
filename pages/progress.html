@@ -1,8 +1,225 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Progress Update</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f5f5f5;
+    margin:0;
+}
+
+.header{
+    background:#1f4e79;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    padding:20px;
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:20px;
+    text-decoration:none;
+    background:#1f4e79;
+    color:white;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+.project-card{
+    background:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.15);
+}
+
+.progress-bar{
+    width:100%;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.progress{
+    height:30px;
+    text-align:center;
+    color:white;
+    line-height:30px;
+    font-weight:bold;
+}
+
+.p50{
+    width:50%;
+    background:#ff9800;
+}
+
+.p40{
+    width:40%;
+    background:#2196f3;
+}
+
+.p0{
+    width:0%;
+    background:#4caf50;
+}
+
+.issue{
+    color:red;
+    margin-top:10px;
+}
+
+.owner{
+    color:#1f4e79;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
 <body>
+
+<div class="header">
 
 <h1>📈 Progress Update</h1>
 
+<p>Engineering Project Review Meeting</p>
+
+</div>
+
+<div class="container">
+
+<a href="../index.html" class="back">
+⬅ Back to Dashboard
+</a>
+
+<!-- P003 -->
+
+<div class="project-card">
+
+<h2>P003 - Safety for Open-Close Autoclave</h2>
+
+<p class="owner">
+Owner : K.Siwat
+</p>
+
+<div class="progress-bar">
+<div class="progress p50">
+50%
+</div>
+</div>
+
+<div class="issue">
+
+Issues :
+
+<ul>
+<li>ระบบไฟฟ้า</li>
+<li>แก้ไขระยะกระบอก</li>
+<li>Platform</li>
+<li>เพิ่มกำลังพลเร่งงาน</li>
+</ul>
+
+</div>
+
+</div>
+
+<!-- P008 -->
+
+<div class="project-card">
+
+<h2>P008 - New Main Mixer Q-CON4</h2>
+
+<p class="owner">
+Owner : K.Siwat
+</p>
+
+<div class="progress-bar">
+<div class="progress p40">
+40%
+</div>
+</div>
+
+<div class="issue">
+
+Issues :
+
+<ul>
+<li>Electrical Design</li>
+<li>Factory Electrical System</li>
+</ul>
+
+</div>
+
+</div>
+
+<!-- P011 -->
+
+<div class="project-card">
+
+<h2>P011 - Chiller Mixer System</h2>
+
+<p class="owner">
+Owner : K.Siwat
+</p>
+
+<div class="progress-bar">
+<div class="progress p0">
+0%
+</div>
+</div>
+
+</div>
+
+<!-- P014 -->
+
+<div class="project-card">
+
+<h2>P014 - Auto Pallet Feed-In</h2>
+
+<p class="owner">
+Owner : K.Siwat
+</p>
+
+<div class="progress-bar">
+<div class="progress p0">
+0%
+</div>
+</div>
+
+</div>
+
+<!-- P016 -->
+
+<div class="project-card">
+
+<h2>P016 - Aluminium Preparation + Chiller</h2>
+
+<p class="owner">
+Owner : K.Siwat
+</p>
+
+<div class="progress-bar">
+<div class="progress p0">
+0%
+</div>
+</div>
+
+</div>
+
+</div>
+
 </body>
+
 </html>

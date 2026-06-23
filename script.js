@@ -1,23 +1,23 @@
 function openProject(){
 
-    alert("Project Management");
+    window.location.href="pages/project.html";
 
 }
 
 function openProgress(){
 
-    alert("Progress Update");
+    window.location.href="pages/progress.html";
 
 }
 
 function openDocuments(){
 
-    alert("Document Center");
+    window.location.href="pages/documents.html";
 
 }
 
 function openDashboard(){
 
-    alert("Power BI Dashboard");
+    window.location.href="pages/dashboard.html";
 
 }

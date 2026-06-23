@@ -1,37 +1,156 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <meta charset="UTF-8">
+
 <title>Project Management</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f5f5f5;
+    margin:0;
+}
+
+.header{
+    background:#1f4e79;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:#1f4e79;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f0f8ff;
+}
+
+.back{
+    display:inline-block;
+    margin-bottom:20px;
+    text-decoration:none;
+    background:#1f4e79;
+    color:white;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+.high{
+    color:red;
+    font-weight:bold;
+}
+
+.medium{
+    color:orange;
+    font-weight:bold;
+}
+
+.low{
+    color:green;
+    font-weight:bold;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<div class="header">
+
 <h1>📁 Project Management</h1>
 
-<h3>Current Projects</h3>
+<p>Engineering Project Portfolio</p>
 
-<table border="1">
+</div>
+
+<div class="container">
+
+<a href="../index.html" class="back">
+⬅ Back to Dashboard
+</a>
+
+<table>
 
 <tr>
-<th>ID</th>
-<th>Project</th>
+<th>Project ID</th>
+<th>Project Name</th>
+<th>Location</th>
+<th>Priority</th>
+<th>Budget (M THB)</th>
 <th>Status</th>
 </tr>
 
 <tr>
 <td>P003</td>
 <td>Safety for Open-Close Autoclave</td>
-<td>In Progress</td>
+<td>Q-CON2</td>
+<td class="high">High</td>
+<td>2.5</td>
+<td>50%</td>
 </tr>
 
 <tr>
 <td>P008</td>
 <td>New Main Mixer Q-CON4</td>
-<td>Engineering</td>
+<td>Q-CON4</td>
+<td class="high">High</td>
+<td>8.5</td>
+<td>40%</td>
+</tr>
+
+<tr>
+<td>P011</td>
+<td>Chiller Mixer System</td>
+<td>Q-CON2</td>
+<td class="medium">Medium</td>
+<td>3.1</td>
+<td>0%</td>
+</tr>
+
+<tr>
+<td>P014</td>
+<td>Auto Pallet Feed-In</td>
+<td>Q-CON2</td>
+<td class="low">Low</td>
+<td>3.5</td>
+<td>0%</td>
+</tr>
+
+<tr>
+<td>P016</td>
+<td>Aluminium Preparation + Chiller</td>
+<td>Q-CON4</td>
+<td class="low">Low</td>
+<td>4.5</td>
+<td>0%</td>
 </tr>
 
 </table>
 
+</div>
+
 </body>
+
 </html>
